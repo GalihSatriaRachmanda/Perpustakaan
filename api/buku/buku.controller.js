@@ -17,7 +17,7 @@ module.exports = {
                 if(err){
                     res.json({
                         success: 0,
-                        message: "login firts"
+                        message: "login first"
                     })
                 }else if(decoded.result1.status == "petugas"){
                     const data_buku = {
@@ -61,7 +61,7 @@ module.exports = {
                 if(err){
                     res.json({
                         success: 0,
-                        message: "login firts"
+                        message: "login first"
                     })
                 }else if (decoded.result1.status == "petugas"){
                     const data_buku = {
@@ -111,7 +111,7 @@ module.exports = {
                 if(err){
                     res.json({
                         success: 0,
-                        message: "login firts"
+                        message: "login first"
                     })
                 }else if(decoded.result1.status == "petugas"){
                     const data_buku = {
@@ -145,7 +145,7 @@ module.exports = {
                 if(err){
                     res.json({
                         success: 0,
-                        message: "login firts"
+                        message: "login first"
                     })
                 }else{
                     serviceGetBuku(function(err, result){

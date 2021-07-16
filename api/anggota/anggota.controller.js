@@ -50,7 +50,7 @@ module.exports = {
                 if(err){
                     res.json({
                         success: 0,
-                        message: "login firts"
+                        message: "login first"
                     })
                 }else{
                     var user = decoded.result1
@@ -89,7 +89,7 @@ module.exports = {
                 if(err){
                     res.json({
                         success: 0,
-                        message: "login firts"
+                        message: "login first"
                     })
                 }else{
                     var user = decoded.result1
@@ -126,7 +126,7 @@ module.exports = {
                 if(err){
                     res.json({
                         success: 0,
-                        message: "login firts"
+                        message: "login first"
                     })
                 }else{
                     var user = decoded.result1
